@@ -1,0 +1,48 @@
+hr {
+    border: none; 
+    background-color: red; 
+    color: red; 
+    height: 4px;
+}
+.round {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+   }
+#circle1 {
+    background-color: red;
+    display: inline-block;
+    margin-left: 400px;
+}
+#circle2 {
+    background-color: green;
+    display: inline-block;
+    margin-left: 400px;
+}
+#circle3 {
+    background-color: rgb(32, 212, 203);
+    display: inline-block;
+    margin-left: 400px;
+}
+h1 {
+    text-align: center;
+}
+#input {
+    margin-left: 770px;
+}
+img {
+    margin-left: 720px;
+    margin-top: 100px;
+}
+img:hover {
+    transform: scale(0.8); 
+    transition: 5s;
+}
+#image:active {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition: 2s;
+}
