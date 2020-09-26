@@ -32,4 +32,3 @@ $(field).on("mouseMove", function (e){
     player.Y = e.offsetY;
     draw();
 });
-
