@@ -1,0 +1,21 @@
+#ipad {
+    width: 400px;
+}
+
+i {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+.sp-field {
+    margin-left: 44%;
+    width: 135pt;
+}
+#picture {
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
