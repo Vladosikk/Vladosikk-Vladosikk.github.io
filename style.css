@@ -13,9 +13,65 @@ i {
     width: 135pt;
 }
 #picture {
-    background-image: url(img/background.jpg);
+    background-image: url(img/background2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 80%;
+}
+#logo {
+    display: flex;
+}
+#logopng {
+    width: 50px;
+    height: 50px;
+}
+#lgtext {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: azure;
+}
+#android {
+    margin-left: 30px;
+}
+#windows {
+    margin-left: 50px;
+}
+#email {
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 60%;
+}
+#sbmt {
+    margin-left: 10pt;
+    width: 10%;
+}
+#fff {
+    background-color: black; 
+    height: 600px;
+    margin-top: 150px;
+}
+#cnctus {
+    color: rgb(122, 191, 236);
+    text-align: center; 
+    margin-top: 100pt;
+}
+#lstxt {
+    color: white; 
+    margin-top: 50pt;
+    background-color: black;
+}
+#exampleInputEmail1 {
+    margin-left: 200px;
+    width: 600px;
+    margin-left: 30px;
+}
+#gvemail {
+    color: rgb(148, 42, 39); 
+    text-align: center; 
+    margin-top: 10pt;
+}
+#dddd {
+    height: 500px;
 }
