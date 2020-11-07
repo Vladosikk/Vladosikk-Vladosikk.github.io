@@ -8,7 +8,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>Gallery</title>
 </head>
 
 <body id="picture">
@@ -29,7 +29,7 @@
         </header>
     <section style="background-color: rgba(255, 255, 255, 0.514);" id="dddd">
         <article id="act">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="cOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="img/img1.jpg" alt="Первый слайд">
@@ -41,35 +41,36 @@
                     <img class="d-block w-100" src="img/img3.jpg" alt="Третий слайд">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/img4.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="img/img4.jpg" alt="Четвёртый  слайд">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/img5.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="img/img5.jpg" alt="Пятый слайд">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/img6.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="img/img6.jpg" alt="Шестой слайд">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/img7.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="img/img7.jpg" alt="Седьмой слайд">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/img8.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="img/img8.jpg" alt="Восьмой слайд">
                   </div>
                 </div>
               </div>
         </article>
+        <hr>
         <div id="pictures" class="container">
-            <div class="row">
-                <div class="col-3"><img src="img/img1.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img2.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img3.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img4.jpg" class="elements"></div>
+            <div class="row" style="margin-top: 2rem" id="galImg1">
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="0" src="img/img1.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="1" src="img/img2.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="2" src="img/img3.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="3" src="img/img4.jpg" class="scale"></div></div>
             </div>
-            <div class="row">
-                <div class="col-3"><img src="img/img5.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img6.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img7.jpg" class="elements"></div>
-                <div class="col-3"><img src="img/img8.jpg" class="elements"></div>
+            <div class="row" id="galImg2">
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="4" src="img/img5.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="5" src="img/img6.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="6" src="img/img7.jpg" class="scale"></div></div>
+                <div class="col-lg-3 mb-5"><div class="col-3 d-inline-block"><img data-target="#cOnly" data-slide-to="7" src="img/img8.jpg" class="scale"></div></div>
             </div>
         </div>
     </section>

@@ -52,7 +52,7 @@
     margin-top: 10pt;
 }
 #dddd {
-    height: 1000px;
+    height: 1100px;
     margin-top: 40px;
 }
 #info {
@@ -61,17 +61,32 @@
 #act {
     margin-bottom: 10px;
 }
-#carouselExampleSlidesOnly {
+#cOnly {
     width: 1000px;
     margin-left: calc(50vw - 500px);
-    padding-top: 10px;
+    padding-top: 30px;
+    margin: auto;
 }
 #pictures {
     margin: 0px;
     padding: 0px;
-    margin-left: calc(50vw - 565px);
+    margin-left: calc(50vw - 575px);
 }
-.elements {
+.scale {
     width: 250px;
     height: 150px;
+    margin-left: -10px;
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2); 
+   }
+#galImg2 {
+    margin-bottom: 30px;
+}
+hr {
+    background-color: black; 
+    color: black; 
+    height: 5px;
+    width: 1000px;
 }
