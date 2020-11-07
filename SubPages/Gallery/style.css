@@ -19,7 +19,7 @@
     color: azure;
 }
 #email {
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 30%;
     width: 60%;
 }
@@ -29,7 +29,6 @@
 }
 #fff {
     background-color: black; 
-    height: 400px;
 }
 #cnctus {
     color: rgb(122, 191, 236);
@@ -53,7 +52,7 @@
 }
 #dddd {
     height: 1100px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 #info {
     padding-top: 1px;
@@ -62,31 +61,22 @@
     margin-bottom: 10px;
 }
 #cOnly {
-    width: 1000px;
+    width: 1106px;
     margin-left: calc(50vw - 500px);
-    padding-top: 30px;
+    padding-top: 10px;
     margin: auto;
 }
 #pictures {
-    margin: 0px;
-    padding: 0px;
-    margin-left: calc(50vw - 575px);
+    margin-left: calc(50vw - 580px);
 }
 .scale {
     width: 250px;
     height: 150px;
     margin-left: -10px;
     transition: 1s;
+    margin-bottom: 1px;
 }
 .scale:hover {
     transform: scale(1.2); 
    }
-#galImg2 {
-    margin-bottom: 30px;
-}
-hr {
-    background-color: black; 
-    color: black; 
-    height: 5px;
-    width: 1000px;
-}
+
