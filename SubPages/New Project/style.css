@@ -1,267 +1,476 @@
 #header {
-position: absolute;
-width: 1920px;
-height: 600px;
-left: 0px;
-top: 0px;
-mix-blend-mode: normal;
+    position: absolute;
+    width: 1920px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    background-image: url(../vizitka/img/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
 }
+
 #logodiv {
-position: absolute;
-width: 150px;
-height: 150px;
-left: 885px;
-top: 0px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 885px;
+    top: 0px;
+    overflow: hidden;
 }
+
 #logo {
-position: absolute;
-width: 120px;
-height: 120px;
-left: 15px;
-top: 15px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 15px;
+    top: 15px;
+    overflow: hidden;
 }
+
 #infabus {
-position: absolute;
-width: 350px;
-height: 530px;
-left: 40px;
-top: 20px;
+    position: absolute;
+    width: 350px;
+    height: 530px;
+    left: 40px;
+    top: 20px;
+    overflow: hidden;
 }
+
 #information {
-position: absolute;
-width: 200px;
-height: 119px;
-left: 75px;
-top: 205px;
-background: #FFFFFF;
-border-radius: 20px;
+    position: absolute;
+    width: 200px;
+    height: 119px;
+    left: 75px;
+    top: 205px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
 #infabus2 {
-position: absolute;
-width: 350px;
-height: 530px;
-left: 1530px;
-top: 20px;
+    position: absolute;
+    width: 350px;
+    height: 530px;
+    left: 1530px;
+    top: 20px;
+    overflow: hidden;
 }
+
 #information2 {
-position: absolute;
-width: 200px;
-height: 119px;
-left: 75px;
-top: 200px;
-background: #FFFFFF;
-border-radius: 20px;
+    position: absolute;
+    width: 200px;
+    height: 119px;
+    left: 75px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
 #phofus {
-position: absolute;
-width: 800px;
-height: 400px;
-left: 560px;
-top: 150px;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 560px;
+    top: 150px;
+    overflow: hidden;
 }
+
 #photoUs {
-position: absolute;
-width: 600px;
-height: 300px;
-left: 100px;
-top: 50px;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 100px;
+    top: 50px;
+    overflow: hidden;
 }
+
 #aboutMe {
-position: absolute;
-width: 1920px;
-height: 996px;
-left: 0px;
-top: 600px;
+    position: absolute;
+    width: 1920px;
+    height: 996px;
+    left: 0px;
+    top: 600px;
 }
+
 #aboutMe1 {
-position: absolute;
-width: 1920px;
-height: 500px;
-left: 0px;
-top: -3px;
-background-image: url(../vizitka/img/aye2.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-height: 80%;
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    background-image: url(../vizitka/img/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
 }
+
 #posts1 {
-position: absolute;
-width: 850px;
-height: 450px;
-left: 1000px;
-top: 36px;
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    left: 1000px;
+    top: 36px;
+    overflow: hidden;
 }
+
 #post1_1 {
-position: absolute;
-width: 550px;
-height: 100px;
-left: 100px;
-top: 314px;
-background: #EE73E2;
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    left: 100px;
+    top: 314px;
+    background: #EE73E2;
+    overflow: hidden;
 }
+
 #post1_2 {
-position: absolute;
-width: 550px;
-height: 100px;
-left: 100px;
-top: 175px;
-background: #EE73E2;
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    left: 100px;
+    top: 175px;
+    background: #EE73E2;
+    overflow: hidden;
 }
+
 #post1_3 {
-position: absolute;
-width: 550px;
-height: 100px;
-left: 100px;
-top: 36px;
-background: #EE73E2;
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    left: 100px;
+    top: 36px;
+    background: #EE73E2;
+    overflow: hidden;
 }
+
 #photoMe1 {
-position: absolute;
-width: 850px;
-height: 450px;
-left: 50px;
-top: 40px;
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    left: 50px;
+    top: 40px;
+    overflow: hidden;
 }
+
 #description1 {
-position: absolute;
-width: 280px;
-height: 70px;
-left: 260px;
-top: 345px;
-background: #FFFFFF;
+    position: absolute;
+    width: 280px;
+    height: 70px;
+    left: 260px;
+    top: 345px;
+    background: #FFFFFF;
+    overflow: hidden;
 }
+
 #avatar1 {
-position: absolute;
-width: 280px;
-height: 280px;
-left: 260px;
-top: 35px;
-background: #FFFFFF;
-border-radius: 200px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 260px;
+    top: 35px;
+    background: #FFFFFF;
+    border-radius: 200px;
+    overflow: hidden;
 }
+
 #aboutMe2 {
-position: absolute;
-width: 1920px;
-height: 500px;
-top: 497px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    top: 500px;
+    left: -8px;
+    transform: scaleX(-1);
+    background-image: url(../vizitka/img/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 #posts2 {
-position: absolute;
-width: 850px;
-height: 450px;
-left: 1020px;
-top: 30px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    left: 1020px;
+    top: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #post2_1 {
-position: absolute;
-width: 550px;
-height: 100px;
-right: 100px;
-top: 36px;
-background: #EE73E2;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    right: 100px;
+    top: 36px;
+    background: #EE73E2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #post2_2 {
-position: absolute;
-width: 550px;
-height: 100px;
-right: 100px;
-top: 175px;
-background: #EE73E2;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    right: 100px;
+    top: 175px;
+    background: #EE73E2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #post2_3 {
-position: absolute;
-width: 550px;
-height: 100px;
-right: 100px;
-top: 314px;
-background: #EE73E2;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    right: 100px;
+    top: 314px;
+    background: #EE73E2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #photoMe2 {
-position: absolute;
-width: 850px;
-height: 450px;
-left: 70px;
-top: 30px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    left: 70px;
+    top: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #description2 {
-position: absolute;
-width: 280px;
-height: 70px;
-left: 260px;
-top: 345px;
-background: #FFFFFF;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    width: 280px;
+    height: 70px;
+    left: 260px;
+    top: 345px;
+    background: #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    overflow: hidden;
 }
+
 #avatar2 {
-position: absolute;
-width: 280px;
-height: 280px;
-left: 260px;
-top: 35px;
-background: #FFFFFF;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-border-radius: 200px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 260px;
+    top: 35px;
+    background: #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 200px;
+    overflow: hidden;
 }
+
 #footer {
-position: absolute;
-width: 1920px;
-height: 500px;
-left: 0px;
-top: 1596px;
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    top: 1596px;
+    overflow: hidden;
+    background-image: url(../vizitka/img/pic2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 #contactUs {
-position: absolute;
-width: 1100px;
-height: 400px;
-left: 410px;
-top: 50px;
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    left: 410px;
+    top: 50px;
+    overflow: hidden;
 }
+
 #sbmt {
-position: absolute;
-width: 200px;
-height: 40px;
-left: 810px;
-top: 135px;
-background: #EE73E2;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 810px;
+    top: 135px;
+    background: #EE73E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
+
 #nmSrnm {
-position: absolute;
-width: 600px;
-height: 30px;
-left: 100px;
-top: 80px;
-background: #FFFFFF;
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    left: 100px;
+    top: 80px;
+    background: #FFFFFF;
+    overflow: hidden;
 }
+
 #tell {
-position: absolute;
-width: 600px;
-height: 30px;
-left: 100px;
-top: 140px;
-background: #FFFFFF;
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    left: 100px;
+    top: 140px;
+    background: #FFFFFF;
+    overflow: hidden;
 }
+
 #email {
-position: absolute;
-width: 600px;
-height: 30px;
-left: 100px;
-top: 200px;
-background: #E5E5E5;
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    left: 100px;
+    top: 200px;
+    background: #E5E5E5;
+    overflow: hidden;
 }
+
 #header {
-background-image: url(../vizitka/img/aye.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-height: 80%;
+    background-image: url(../vizitka/img/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80%;
+    overflow: hidden;
+}
+
+#foo {
+    width: 222px;
+    margin-left: 849px;
+    margin-top: 100px;
+}
+
+.main-footer__subscription {
+    margin-left: 785px;
+    margin-top: 150px;
+}
+
+.subscription-widget {
+    position: relative;
+}
+
+.subscription-widget__title {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.subscription-widget__input-container {
+    position: relative;
+    max-width: 350px;
+}
+
+.subscription-widget__input {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    color: #777;
+    display: block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+
+.subscription-widget__submit {
+    border-radius: 8px;
+    content: "↵";
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), #fff 20%, #fff 100%);
+    position: absolute;
+    padding: 0 12px;
+    text-align: center;
+    top: 1px;
+    right: 1px;
+    font-size: 20px;
+    color: #777;
+    cursor: pointer;
+    height: 45px;
+    line-height: 46px;
+}
+
+.subscription-widget__message-container {
+    background-color: #424b54;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    max-width: 350px;
+    padding: 15px 35px 15px 15px;
+    position: absolute;
+    top: calc(100% + 10px);
+    width: 100%;
+}
+.main-footer {
+    margin-top: 30px;
+    background: #333;
+    color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+div {
+    display: block;
+}
+
+input {
+    line-height: normal;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.main-footer__social {
+    display: flex;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+}
+.main-footer__social-link {
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+.main-footer__social {
+    width: 222px;
 }
