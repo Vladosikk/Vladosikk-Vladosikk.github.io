@@ -1,0 +1,186 @@
+:root {
+	--animation-delay: 0;
+	--duration: 800ms;
+	--iterations: 1;
+}
+#picture {
+    background-image: url(img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo {
+    display: flex;
+}
+#logopng {
+    width: 50px;
+    height: 50px;
+}
+#lgtext {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.74);
+}
+#email {
+    margin-top: 40px;
+}
+#sbmt {
+    margin-left: 10px;
+    width: 100px;
+}
+#fff {
+    background-color: rgba(0, 0, 0, 0.801); 
+}
+#cnctus {
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    padding-top: 30px;
+}
+#lstxt {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+#exampleInputEmail1 {
+    margin-left: 700px;
+    width: 400px;
+
+}
+#gvemail {
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    margin-top: 10pt;
+}
+#dddd {
+    height: 1700px;
+    margin-top: 40px;
+}
+#info {
+    padding-top: 1px;
+}
+#act {
+    margin-bottom: 10px;
+    height: 600px;
+}
+#cOnly {
+    width: 1000px; height: 600px;
+    margin-left: calc(50vw - 500px);
+    padding-top: 30px;
+    margin: auto;
+}
+#pictures {
+    margin: 0px;
+    padding: 0px;
+    margin-left: calc(50vw - 575px);
+}
+.scale {
+    width: 250px;
+    height: 150px;
+    margin-left: -10px;
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2); 
+   }
+#galImg2 {
+    margin-bottom: 30px;
+}
+#OKK {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+}
+.anim-show{
+    width:350px;
+    color:#fff;
+    font-size:20px;
+    padding:15px;
+    margin:auto;
+    margin-bottom:15px;
+    text-align:center;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+.anim-show1{
+    width:400px;
+    color:#fff;
+    font-weight: bolder; 
+    font-size:25px;
+    border:3px solid #976320;
+    padding:15px;
+    margin:auto;
+    margin-bottom:15px;
+    text-align:center;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+@keyframes show1{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+.anim-show2{
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    margin:auto;
+    margin-bottom:10px;
+    text-align:center;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+@keyframes show2{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+#formula1 {
+    width: 500px;
+    height: 50px;
+    margin-left: 790px;
+}
+#IIII {
+    display: none;
+}
+.anim-show3{
+    width: 150px;
+    height: 100px;
+    margin:auto;
+    margin-bottom:10px;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+@keyframes show3{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
